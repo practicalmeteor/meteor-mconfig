@@ -1,4 +1,6 @@
-class spacejam.Config
+@practical ?= {}
+
+class practical.Config
   envVarPrefix: ''
 
   constructor: (@settingsPath = '')->
